@@ -1,0 +1,89 @@
+
+Tags úteis 
+<!-- TAGS DE TEXTO -->
+
+<p></p> – Principal tag de texto, compõe um parágrafo.
+
+<span></span> – Apesar de ter uma funcionalidade e características parecidas com os parágrafos, costumam ser utilizadas apenas para pequenas informações, como legendas de um formulário, legendas de uma imagem, etc. Também pode
+
+<pre></pre> – Tag utilizada para representar texto pré-formatado. 
+
+<br/> – Essa tag não necessita de fechamento, ela executa a função de quebra de linha.
+
+<hr/> – Essa tag não necessita de fechamento, ela forma uma linha horizontal.
+
+<strong></strong> -Negrito.
+
+<em></em> - Itálico.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+<!-- TAGS DE LISTAS -->
+
+<ul></ul> - Lista NÃO ordenada.
+
+<ol></ol> - Lista Ordenada.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!-- TAGS DE MULTIMIDIA -->
+
+<img src=""> - Insere uma imagem.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+<!-- TAGS DE LINKS -->
+
+<a href=""></a> -- Faz um link com o endereço passado via href.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+<!-- TAGS DE TABELAS -->
+
+<table></table> - Corpo da tabela
+<th></th> - table header, cabeçalho da tabela.
+<td></td> - table data, dados da tabela.
+<tr></tr> - table row, linha da tabela.
+<td colspan=" 2"></td> - Mescla duas ou mais colunas.
+<td rowspan=" 2 "></td> - Mescla duas ou mais linhas.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+<!-- TAGS DE FORMULARIOS -->
+
+<form></form> - Corpo do formulário.
+<input type="Tipo do dado" name=" Nome que vai aparecer no formulário"> 
+<input type="Submit" name="Logar"> - Botão.
+<input type="checkbox" name="nome da checkbox"> - checkbox.
+<input type="radio" name="nome do radio" value="nome que a linguagem de back and vai pegar"> - radio.
+<select> - ComboBox
+	<option>SP</option>
+	<option>BA</option>
+	<option>MG</option>
+	<option>RJ</option>
+
+</select>
+
+<textarea></textarea> - Text Area.
+*****************************************************************************************************************************************************
+<!-- TAGS CSS3 -->
+
+<style type="text/css"></style> - Corpo do estilo CSS
+
+# - ID, só é permitido um id por página, utilizado para estruturar o site. Fica dentro do Style.
+. -  Classe, pode ser usado em mais de uma tag. Fica dentro do Style.
+
+<!-- TAGAS DE ESTRUTURAÇÃO -->
+<div></div> - Cria uma divisão entre os conteúdos do site. Div é um elemento do tipo block, ou seja, ficam um embaixo do outro.
+<span></span> - Funciona parecido com uma div, coma  diferença que a formatação é inline. Ficam um do lado do outro. É possível utilizar span dentro de divs.
+
+<!-- TAGS PARA BORDAS -->
+border: espessura em pixel, tipo da borda(solid, por exemplo) e cor da borda.
+
+Tipos de bordas: Solid - solida, dotted - pontilhado,  dashed - trecejada, double - solid duplicada, groove - borda 3D, ridge - cume, inset - efeito 3D somente na parte de cima e lateral esquerda, outset - efeito 3D somente na parte de baixo e na lateral direita, none - sem borda, hidden - borda escondida
+
+Definindo uma borda
+<style type="text/css">
+	
+	#exemplo:{
+		/*border: 15px solid red  width 15 pixels, borda solida, de cor vermelha*/
+		border-color: red green yellow blue; sentido horário (top right bottom left)
+		border-width: 15px 10px 5px 1px; também em sentido horário (top right bottom left)
+		border-style: solid outset dashed dotted;
+	}
+
+OBS: quando se define apenas dois valores, o primeiro é aplicado na parte superior e inferior, e o segundo nas laterais.
+
+</style>
